@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hsblco55/public_html/emon
+    - /bin/cp -R * $DEPLOYPATH
+    
